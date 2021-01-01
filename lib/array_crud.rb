@@ -51,3 +51,9 @@ def update_element_from_index(array, index_number, element)
   array[4] = "totally"
 
 end
+
+
+def pop_with_args(array, array)
+  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahhua", "Shiba Inu"]
+  deleted_strings = dog_breeds.pop("Shia Inu", "Chiuahua")
+end
